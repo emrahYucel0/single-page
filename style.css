@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.container-first {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/drop-water-h2o-photography-428605.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+header {
+    z-index: 1;
+    background-color: rgba(106, 107, 109, 0.2); /* Black w/opacity/see-through */
+    padding: 1.25rem 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 5vh;
+    
+}
+
+nav div {
+    flex-basis: 33%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main , article {
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8.45rem;
+    font-weight: lighter;
+    color: #659dbe;
+    position: relative;
+    bottom: 2.5rem;
+    z-index: 0;
+}
+
+main > div {
+    width: 75%;
+}
+
+button {
+    cursor: pointer;
+    width: 8.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.625rem 0 0 0.3rem;
+}
+
+#btn-left {
+    background-color: #65a0c0;
+    border: 0.1rem solid #65a0c0;
+}
+
+#btn-right {
+    background-color: transparent;
+    border: 0.1rem solid wheat;
+}
+
+#btn-left:hover {
+    background-color: transparent;
+    border: 0.1rem solid wheat;
+}
+
+#btn-right:hover {
+    background-color: #65a0c0;
+    border: 0.1rem solid #65a0c0;
+}
+
+.main-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-end div {
+    width: 7.5rem;
+}
+
+.main-end div p:last-child {
+    border-top: 0.1rem solid white;
+    margin-top: 0.625rem;
+}
+
+.container-second {
+    width: 100%;
+    height: 100vh;
+    background: #181818;
+}
+
+h2 {
+    font-size: 4.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+
+article > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5.6rem;
+    height: 20vh;
+}
+
+
+.row {
+    height: 80vh;
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+
+.row div {
+    background-color: #24282b;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.688rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row p {
+    font-size: 1.563rem;
+}
+
+.row i {
+    color: #65a0c0;
+    font-size: 4.375rem;
+    text-align: center;
+}
+
